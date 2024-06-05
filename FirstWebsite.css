@@ -1,0 +1,303 @@
+*{
+    
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      
+}
+
+.headfirst{
+    background-color:#EA4EF3 ;
+    color: #ffff;
+    padding: 2;
+ }
+ .headfirst:hover{
+    background-color:#f069f8 ;
+    color: #ffff;
+    padding: 2;
+ }
+#logo{
+    height: 140px;
+    width: 340px;
+    margin-left: 50px;
+}
+.head-icon{
+    font-size: 27px;
+    list-style: none;
+     
+}
+.head-icon a{
+    color:black;
+}
+ 
+ /* Custom CSS to show dropdown on hover */
+   .navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar{
+    background-color: #FCBEDA;
+    
+}
+.nav-link{
+color: black;
+ font-size:18px ;
+ font-weight: bolder;
+ margin-left: 18px;
+ 
+}
+.bg-image-1{
+    background-image: url('https://qurious.life/cdn/shop/files/20200813_Cheryl_10465_resize2_1728x.jpg?v=1614318146');
+    height:150vh;
+    margin: 50px 30px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius: 17px;
+    
+}
+.shop-button{
+    background-color: #f9aed6;
+    padding: 8px;
+    width: 200px;
+    font-size: 18px;
+    font-weight:bolder;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+
+}
+.shop-button:hover{
+    background-color: #0e6b80;
+    color: white;
+
+}
+.image-1-div-1{
+    margin-top: 200px;
+}
+.Rainbow-mirror{
+    float: right;
+   margin-top: 100px;
+   margin-right: 150px;
+   background-color: whitesmoke;
+   padding: 7px;
+   border-radius: 8px;
+   text-decoration: none;
+   color: black;
+ font-size:18px ;
+ font-weight: bolder;
+}
+.part-2{
+    background-color:#FCBEDA;
+    padding: 60px;
+    margin: 50px 30px;
+    border-radius:17px;
+}
+.sign-option{
+    display: flex;
+    justify-content: center;
+}
+.qurious-btn{
+    background-color: #0e6b80;
+    padding: 8px;
+    width: 200px;
+    font-size: 18px;
+    font-weight:bolder;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.qurious-btn:hover{
+    background-color: transparent;
+    color: black;
+}
+.part-3{
+    text-align: center;
+    background-color:#496C90;
+    padding: 60px;
+    margin: 50px 30px;
+    border-radius:17px;
+    color: #ffff;
+}
+.part-3-para{
+    padding: 10px 80px;
+    font-size: 18px;
+    font-weight:normal; 
+}
+.part-4{
+    text-align: center;
+    background-color:#FCBEDA;
+    margin: 50px 30px;
+    border-radius:17px;
+    color:black;
+ 
+}
+.part-4-first-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.part-4-img{
+    height: 100vh;
+    width: 100%;
+    border-bottom-right-radius:17px;
+    border-top-right-radius: 17px;
+
+}
+.part-5{
+    text-align: center;
+    margin: 50px 30px;
+    border-radius:17px;
+    color:black;
+    padding: 60px;
+}
+.part-7{
+    text-align: center;
+    background-color:#0e6b80;
+    margin: 50px 30px;
+    border-radius:17px;
+    color:black;
+ 
+}
+.part-7-first-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.part-7-img{
+    height: 70vh;
+    width: 100%;
+    border-bottom-right-radius:17px;
+    border-top-right-radius: 17px;
+
+}
+.part-8{
+    margin-top: 20px;
+}
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    border: none;
+    outline: none;
+    flex: 0 0 calc(25% - 10px); /* 4 cards per row, considering 10px gap between cards */
+    margin-bottom: 20px; /* Adjust as needed for vertical spacing */
+  }
+  .price{
+    color: red;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+ .lineprice{
+    text-decoration: line-through;
+    font-size: 18px;
+    font-weight: bolder;
+ }
+  .card img:hover{
+   transform: scale(1.05);
+   transition: all 1s;
+  }
+  .footer{
+    background-color:#496C90;
+    padding: 40px 0px 0px 40px;
+    overflow: hidden;
+    height: 60vh;
+  }
+.links-head{
+    color: white;
+}
+.links{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(236, 233, 227);
+    margin-top: 15px;
+    font-weight: bolder;
+}
+.links:hover{
+    color: white;
+}
+.dot{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.fa-instagram{
+    font-size: 25px;
+}
+.fa-instagram:hover{
+  transform: scale(1.05);
+  transition: all 2s;
+}
+  @media (max-width: 769px) {
+    .card {
+      flex: 0 0 calc(100% - 10px); /* 1 card per row for extra small screens */
+    }
+    #logo{
+        height: 120px;
+        width: 100px;
+        margin-left: 50px;
+    }
+    .bg-image-1{
+        background-image: url('https://qurious.life/cdn/shop/files/20200813_Cheryl_10465_resize2_1728x.jpg?v=1614318146');
+        height:80vh;
+        margin: 30px 20px;
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+        border-radius: 17px;
+        
+    }
+    .part-3-para{
+        padding: 0px;
+        font-size: 10px;
+        font-weight:normal; 
+    }
+    .part-4{
+        text-align: center;
+        background-color:#FCBEDA;
+        margin: 10px;
+        border-radius:17px;
+        color:black;
+        overflow: hidden;
+     
+    }
+    .part-4-first-col{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .part-4-img{
+        height: 50vh;
+        width: 100%;
+        border-bottom-right-radius:17px;
+        border-top-right-radius: 17px;
+    
+    }
+    .part-5{
+        text-align: center;
+        margin: 10px;
+        border-radius:17px;
+        color:black;
+        padding: 20px;
+    }
+    .part-7-img{
+        height: 50vh;
+        width: 100%;
+        border-bottom-right-radius:17px;
+        border-top-right-radius: 17px;
+    
+    }
+    .footer{
+        background-color:#496C90;
+        padding: 20px;
+        overflow: hidden;
+        height: fit-content;
+      }
+  }  
